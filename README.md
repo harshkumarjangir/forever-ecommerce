@@ -74,25 +74,41 @@ It provides a seamless shopping experience for users and an intuitive admin pane
 ## 📁 Folder Structure
 
 ```
-Forever-Ecommerce/
+forever-ecommerce/
 │
-├── backend/
+├── backend/                  # Node.js + Express backend
 │   ├── config/
 │   ├── controllers/
+│   ├── middleware/
 │   ├── models/
 │   ├── routes/
 │   ├── utils/
 │   ├── server.js
+│   └── .env.example
 │
-├── frontend/
+├── frontend/                 # React frontend for users
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
 │   │   ├── context/ or store/
 │   │   ├── App.js
 │   │   ├── index.js
+│   ├── public/
+│   ├── package.json
 │
-└── README.md
+├── admin/                    # React admin dashboard
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── context/ or store/
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── public/
+│   ├── package.json
+│
+├── screenshots/              # Screenshots for README.md
+├── README.md
+└── package.json
 ```
 
 ---
