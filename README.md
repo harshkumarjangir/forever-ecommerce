@@ -82,6 +82,7 @@ forever-ecommerce/
 │   ├── middleware/
 │   ├── models/
 │   ├── routes/
+<<<<<<< HEAD
 │   ├── server.js
 │   └── .env
 │   └── package.json
@@ -104,6 +105,21 @@ forever-ecommerce/
 │   ├── .gitignore
 │   ├── .env
 │   ├── vercel.json
+=======
+│   ├── utils/
+│   ├── server.js
+│   └── .env.example
+│
+├── frontend/                 # React frontend for users
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── context/ or store/
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── public/
+│   ├── package.json
+>>>>>>> dca4e4fa82ab0479cd045f5f7ceebd5285604852
 │
 ├── admin/                    # React admin dashboard
 │   ├── src/
@@ -114,11 +130,16 @@ forever-ecommerce/
 │   │   ├── index.js
 │   ├── public/
 │   ├── package.json
+<<<<<<< HEAD
 │   ├── package-lock.json
 │   ├── vercel.json
 │
 ├── screenshots/              # Screenshots for README.md
 ├── .gitignore
+=======
+│
+├── screenshots/              # Screenshots for README.md
+>>>>>>> dca4e4fa82ab0479cd045f5f7ceebd5285604852
 ├── README.md
 └── package.json
 ```
